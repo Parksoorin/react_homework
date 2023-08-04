@@ -1,0 +1,198 @@
+.bodybox {
+  display: flex;
+}
+.left{
+  background-color: #EEE;
+  
+}
+.loginbox{
+  display: flex;
+  width: 475px;
+  padding: 200px 50px 320px 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  flex-shrink: 0;
+  align-self: stretch;
+  background: #EEE;
+}
+#outlined-basic{
+  display: flex;
+  width: 355px;
+  height: 46px;
+  padding: 5px 10px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #DADADA;
+  background: #FFF;
+}
+
+.form-input {
+  display: flex;
+  width: 375px;
+  height: 46px;
+  padding: 5px 10px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #DADADA;
+  background: #FFF;
+}
+
+#loginbtn .btnA{
+  display: flex;
+  width: 375px;
+  padding: 14px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: #218ECB;
+}
+#logoutbtn .btnB{
+  display: flex;
+  width: 375px;
+  padding: 14px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #606477;
+}
+.img {
+  width: 1652.959px;
+  height: 980px;
+  position: absolute;
+  right: -257.959px;
+}
+.sss{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.backimg{
+  width: 80%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../public/picture1.png');
+}
+.form-item{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.dig{
+  border: 1px solid #CCC;
+  background: #F1F1F1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300;
+  display: flex;
+  flex-direction: column;
+}
+.box{
+  padding: 100px;
+}
+.code{
+  display: flex;
+  width: 120px;
+  height: 20px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #DADADA;
+  background: #FFF;
+}
+.checkbox{
+  display: flex;
+  flex-direction: column;
+}
+#btnCD{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+#btnCD .btnC{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+#btnCD .btnD{
+  background-color: #606477;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+.code1{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#numbox{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.aa{
+  display: flex;
+  gap: 10px;
+}
+#aaa{
+  display: flex;
+  width: 120px;
+  height: 34px;
+  padding: 5px 10px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #DADADA;
+  background: #F2F2F2;
+}
+#inputbox{
+  width: 120px;
+  height: 34px;
+  padding: 5px 10px !important;
+  border-radius: 4px;
+  border: 1px solid #DADADA;
+}
+.userid{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+.userid2{
+  display: flex;
+  gap: 17px;
+  align-items: center;
+  text-align: center;
+}
+.modalbox{
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  flex-direction: column;
+}
+#numbox .text{
+  color: #22577E;
+  font-family: Noto Sans KR;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 10px; /* 112.5% */
+}
+#ss {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #696969;
+  width: 100%;
+  color: white;
+}
